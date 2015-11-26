@@ -9,5 +9,5 @@ The `TMPFS_SIZE` environment variable can be used to configure the size (in MB) 
 docker run  --name mongo-tmpfs \
             --privileged \
             -p 27017:27017 \
-            jamesridgway/mongo-tmpf
+            jamesridgway/mongo-tmpfs
 ```
