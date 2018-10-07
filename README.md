@@ -9,7 +9,7 @@ The `TMPFS_SIZE` environment variable can be used to configure the size (in MB) 
 docker run  --name mongo-tmpfs \
             --privileged \
             -p 27017:27017 \
-            jamesridgway/mongo-tmpfs:3.6
+            jamesridgway/mongo-tmpfs:4.0
 ```
 
 ## MongoDB Version
@@ -21,3 +21,4 @@ Different version of the mongo-tmpfs container are available for different versi
 | 3.2            | jamesridgway/mongo-tmpfs:3.2 |
 | 3.4            | jamesridgway/mongo-tmpfs:3.4 |
 | 3.6            | jamesridgway/mongo-tmpfs:3.6 |
+| 4.0            | jamesridgway/mongo-tmpfs:4.0 |

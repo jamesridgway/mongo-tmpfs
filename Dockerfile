@@ -1,4 +1,4 @@
-FROM mongo:3.6
+FROM mongo:4.0
 
 ENV TMPFS_SIZE 1024
 ADD entrypoint.sh /entrypoint.sh
